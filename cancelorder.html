@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Cancel Orders</title>
+             <meta charset="UTF-8">
+            <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+            <meta name="description" content="Laundry Walaa|| Clicke here to know more about laundry walaa. This is a order cancel page , first download our Laundry Walaa app from playstore create an account and enjoy our services. You can also book our services through calls , number is provided in the help page .">
+            <meta name="viewport" content="width=device-width , initial-scale=1  , user-scalable = 0">
+      <style>
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgb(36, 1, 36);
+    overflow-x: hidden;
+  scrollbar-width: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+ 
+  }
+
+  html{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+   
+  }
+::-webkit-scrollbar{
+    display: none;
+}
+
+  .bgm9{
+  background-color: blue;
+  width: 100%;
+  
+}
+.logo9{
+  text-align: center;
+  font-size: 250%;
+  width: 100%;
+  color:#fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+  
+}
+
+
+#laundry9{
+    height:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    width:250px;
+    margin-top:57px;
+    background:transparent;
+transform:translateX(-250px);
+transition:transform 250ms ease-in-out;
+background-color: rgb(1, 1, 12);
+
+}
+.menu9{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.menu9 li{
+    color:white;
+    border-bottom: 60px solid rgb(1, 1, 12);
+
+}
+.menu9 li a{
+    color:white;
+    display:block;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding: 20px;
+}
+
+
+
+.sidebaricontoggle9{
+    
+    width:5%;
+    height: 30%;
+    position:absolute;
+    z-index:20;
+    top:16px;
+    left:22px;
+    cursor:pointer;
+
+}
+
+.spinner9{
+    height:3px;
+    background:#fff;
+    transition:all 0.3s;
+
+}
+
+.spinner9.middle9, .spinner9.bottom9{
+    margin-top:3px;
+
+}
+
+#openSidebarMenu9:checked  ~ .sidebaricontoggle9 > .spinner9.middle9{
+    opacity:0;
+}
+
+#openSidebarMenu9:checked  ~ .sidebaricontoggle9 > .spinner9.top9{
+transform:rotate(135deg);
+margin-top: 8px;
+}
+
+#openSidebarMenu9:checked  ~ .sidebaricontoggle9 > .spinner9.bottom9{
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+#openSidebarMenu9:checked ~ #laundry9{
+    transform:translateX(0px);
+}
+
+
+
+             .container {
+  display: inline;
+  cursor: pointer;
+}
+
+
+#searchbar{
+  width:65%;
+  height:6%;
+  padding:15px;
+  border-color: rgb(76, 76, 214);
+  border:2px solid black ;
+  margin-left:22%;
+  outline-style: groove;
+outline-color: black;
+outline-width: 2px;
+}
+
+
+.check9{
+  display:none;
+}
+
+.png6{
+  width:20%;
+  height:6%;
+  margin-left: 2%;
+  margin-bottom: -4%;
+}
+
+h1{
+        color: rgb(7, 184, 184);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 3%;
+    }
+
+    .oid{
+        color: #fff;
+        font-size: 20px;
+        font-style: bold;
+        margin-top: 1%;
+        
+    }
+    .rcan{
+        color: #fff;
+        font-size: 20px;
+        font-style: bold;
+    }
+
+.orcan{
+    margin-top: 3%;
+}
+
+.png7{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.png8{
+    text-decoration: none;
+    border-color:rgb(214, 187, 187);
+    background-color: rgb(214, 187, 187);
+    
+    font-size: 25px;
+    font-style: bold;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 100%;
+}
+.png9{
+    
+    position: absolute;
+     
+    left: 20%;
+
+}
+
+.png10{
+    position: absolute;
+    top: 60%;
+    left: 9%;
+}
+.png11{
+    position: absolute;
+    top: 45%;
+    left: 54%;
+    background-color: rgb(218, 201, 201);
+    width: 120px;
+    height: 58px;
+    border-radius: 50px;
+    
+}
+
+.goat3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.co{
+    background-color: rgb(19, 166, 211);
+    color: #fff;
+    width: 60%;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #fff;
+    outline: invert;
+    outline-style: outset;
+}
+
+.goat{
+    margin-left: 20%;
+    margin-top: -5%;
+    padding: 10%;
+}
+
+.goat2{
+    background-color: rgb(7, 184, 184) ;
+    color: #fff;
+    width: 30%;
+    height: 40px;
+    border-color: #fff;
+    border-radius: 10px;
+    display: none;
+    font-size: 15px;
+}
+
+
+.a10{
+    text-decoration: none;
+    width: 50%;
+    height: 40px;
+}
+
+#boobs{
+    color: #fff;
+}
+
+      </style>
+        </head>
+        <body>
+            <div class="firstlogo9">
+                <div class="bgm9" id=""><p class="logo9">Laundry Walaa</p></div>
+              <input type="checkbox" class="check9" id="openSidebarMenu9">
+              <label for="openSidebarMenu9" class="sidebaricontoggle9">
+                <div class="spinner9 top9"></div>
+                <div class="spinner9 middle9"></div>
+                <div class="spinner9 bottom9"></div>
+              </label>
+              <div id="laundry9">
+               <ul class="menu9"> 
+                
+                <li><a href="ratecard.html">Rate Card<img src="https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/pngwing.com%20(2)%20(1).png?alt=media&token=b606dcb8-5cc1-465e-8a11-b63277abcc5d" class="png6" /></a></li>
+                  <li><a href="help.html">Help<img src="https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/pngegg%20(1).png?alt=media&token=3c9228cc-dd7d-4195-a54a-09d79e072d06" class="png6" /></a></li>
+                  <li><a href="rateus.html">Rate Us<img src="https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/5bbce05f7400d-fd3328508f59619e2aa2eb3ba06374e2.png?alt=media&token=ca40addb-0a67-4845-960e-c647288c183d" class="png6" /></a></li>
+                  <li><a href="about.html">About<img src="https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/pngwing.com%20(3)%20(2).png?alt=media&token=afc4f65d-9889-4967-b6d8-b992fe277204" class="png6" /></a></li>
+              </ul>
+              </div>
+          </div>
+     
+          <h1>Cancel Order</h1>
+        <div class="oid">Order Id:<span id="boobs"></span></div>
+<div class="orcan">
+<label> <span class="rcan">Reason for cancelation:</span>
+<select>
+<option value="">Please select reason</option>
+<option value="Want to change payment method">Want to change payment method</option>
+<option value="Delivery time is too long">Delivery time is too long</option>
+<option value="Order placed by mistake">Order placed by mistake</option>
+<option value="Others">Others</option>
+</select>
+</label>
+</div>
+
+<div class="goat3">
+    <button class="co" id="lastcancel">Order Cancel</button>
+</div>
+
+<script type="module">
+
+   // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js";
+
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCDqQzRmuFOXQgfc12PIxzCDcHIJcIUW0I",
+    authDomain: "laundry-walaa.firebaseapp.com",
+    projectId: "laundry-walaa",
+    storageBucket: "laundry-walaa.appspot.com",
+    messagingSenderId: "164078565347",
+    appId: "1:164078565347:web:f7169029dad99f15fa52d6",
+    measurementId: "G-54QCKHK71N"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
+        import{ getDatabase, ref, set, child, get, push, update, remove }
+        from "https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js";
+
+        const database = getDatabase();
+
+        var order50 = localStorage.getItem("order40");
+            document.getElementById("boobs").innerHTML= order50;
+   
+
+
+        document.getElementById("lastcancel").addEventListener("click", function(){
+
+
+           
+            var order80 = localStorage.getItem("order70");
+
+            const db = getDatabase();
+  set(ref(db, "OrdersList/"+ order80),{
+    Name: "cancelled",
+    Mobile_No :"cancelled" ,
+    Address: "cancelled",
+   House_No : "cancelled",
+   Pin_Code: "cancelled",
+  })
+  .then(()=>{
+
+        alert("Your Order has been cancelled");
+        window.location="mainpage1.html";
+
+  })
+  .catch((error)=>{
+    alert("error, please try again");
+  });
+   
+})
+
+
+    
+    </script>
+
+     </body>
+     </html>

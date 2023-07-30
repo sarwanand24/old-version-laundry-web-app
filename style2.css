@@ -1,0 +1,160 @@
+@media  screen and (orientation: portrait) {
+       body{
+ background-color: rgb(36, 1, 36);
+              overflow-x:hidden;
+              scrollbar-width: none;
+              -webkit-user-select: none;
+            }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+            .bgm{
+                background-color: blue;
+                width: 100%;
+                
+            }
+            .logo1{
+                margin-left:17% ;
+                font-size: 200%;
+                width: 100%;
+                color:#fff;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+                display: inline;
+            }
+            #laundry4{
+                height: 100%;
+    position:fixed;
+    left:0;
+    top:0;
+    width:250px;
+    margin-top:90px;
+    background: rgb(1, 1, 12);
+transform:translateX(-250px);
+transition:transform 250ms ease-in-out;
+}
+.menu2{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.menu2 li{
+    color:#fff;
+    border-bottom: 60px solid  rgb(1, 1, 12);
+
+}
+.menu2 li a{
+    color:#fff;
+    display:block;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding: 20px;
+}
+
+
+
+.sidebaricontoggle2{
+    
+    width:5%;
+    height: 30%;
+    position:absolute;
+    z-index:20;
+    top:23px;
+    left:22px;
+    cursor:pointer;
+
+}
+
+.spinner2{
+    height:3px;
+    margin-top:2px;
+    background:#fff;
+    transition:all 0.3s;
+
+}
+
+.spinner2.middle, .spinner2.bottom2{
+    margin-top:3px;
+
+}
+
+#openSidebarMenu2:checked  ~ .sidebaricontoggle2 > .spinner2.middle2{
+    opacity:0;
+}
+
+#openSidebarMenu2:checked  ~ .sidebaricontoggle2 > .spinner2.top2{
+transform:rotate(135deg);
+margin-top: 8px;
+}
+
+#openSidebarMenu2:checked  ~ .sidebaricontoggle2 > .spinner2.bottom2{
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+#openSidebarMenu2:checked ~ #laundry4{
+    transform:translateX(0px);
+}
+
+.check2{
+  display:none;
+}
+ .options-in-steam1{
+    background-color: rgb(36, 1, 36);
+    border:1px solid white;
+    border-width:3px;
+    padding:8px;
+margin-left:18%;
+margin-top: 10%;
+width:60%;
+height:20px;
+color:white;
+outline-style: groove;
+outline-color: black;
+outline-width: 3px;
+font-family: 'Courier New', Courier, monospace;
+ }  
+
+ .options-in-steam2{
+    background-color: rgb(36, 1, 36);
+    border:1px solid white;
+    border-width:3px;
+    padding:8px;
+margin-left:18%;
+margin-top: 10%;
+
+width:64%;
+height:45px;
+color:white;
+outline-style: groove;
+outline-color: black;
+outline-width: 3px;
+font-family: 'Courier New', Courier, monospace;
+ }  
+
+  ::placeholder{
+    text-align: center;
+    font-style: bold;
+    color: white;
+  } 
+
+  .png1{
+    width:20%;
+    height:6%;
+    margin-left: 2%;
+    margin-bottom: -4%;
+  }
+  
+  button:hover{
+    width:66%;
+    height:47px;
+    transition: width 1s height 1s;
+    box-shadow: 3px 3px 3px 3px rgb(15, 155, 155);
+  
+   }
+
+   .laundry5{
+    margin-top: 5%;
+   }
+}

@@ -1,0 +1,274 @@
+@media  screen and (orientation: portrait) {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: rgb(36,1,36);
+    scrollbar-width: none;
+    overflow-x: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+html{
+    overflow-y: overlay;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+   
+  }
+
+
+
+.bgm5{
+    background-color: blue;
+    width: 100%;
+    
+  }
+
+  h1{
+  margin-bottom: 9%;
+  text-align: center;
+
+  }
+
+  .logo5{
+    text-align: center;
+    font-size: 250%;
+    width: 100%;
+    color:#fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+  }
+
+
+  .sig{
+    color:white;
+    margin-top: 5%;
+    font-size: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation-name: sign;
+    animation-duration: 0.2s;
+    animation-delay: 7s;
+    visibility: hidden;
+    animation-fill-mode:forwards;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes sign{
+    from{
+        margin-top: -6%;
+        opacity: 25%;
+    }
+    to{
+        margin-top: 5%;
+        visibility: visible;
+    }
+}
+
+.ani{
+    animation-name: animate1;
+    animation-duration:0.2s ;
+    animation-delay: 7.1s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate1{
+    from{
+        margin-top:-4% ;
+        opacity:25%;
+        }
+    to{
+        visibility: visible;
+    }
+}
+
+.ani1{
+    animation-name: animate2;
+    animation-duration:0.2s ;
+    animation-delay: 7.2s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate2{
+    from{
+        margin-top:-4% ;
+        opacity:25%;
+    }
+    to{
+        visibility: visible;
+    }
+}
+
+.ani2{
+    animation-name: animate3;
+    animation-duration:0.2s ;
+    animation-delay: 7.3s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate3{
+    from{
+        margin-top:-4% ;
+        opacity:25%;
+    }
+    to{
+        visibility: visible;
+    }
+}
+
+.ani3{
+    animation-name: animate4;
+    animation-duration:0.2s ;
+    animation-delay: 7.4s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate4{
+    from{
+        margin-top:-4% ;
+        opacity:25%;
+    }
+    to{
+        visibility: visible;
+    }
+}
+
+.sig4{
+    margin-top:8% ;
+    animation-name: animate5;
+    animation-duration: 0.2s;
+    animation-delay: 7.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate5{
+    from{
+        margin-top: -10%;
+        opacity:25%;
+    }
+    to{
+        margin-top: 8%;
+        visibility: visible;
+    }
+}
+
+
+
+  .sig0{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .sig1{
+    width: 230px;
+    height: 30px;
+    border: none;
+    background-color: rgb(36,1,36);
+border-bottom: 4px solid white;
+color:white;
+font-size: 18px;
+
+}
+
+.sig1:hover{
+    outline: none;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: 20px;
+}
+
+.sig2{
+    margin-left: 30%;
+    width:40%;
+    height: 40px;
+    background-color: rgb(15,153,153);
+    color: white;
+    border-radius: 35px;
+    font-size: 20px;
+    border-color: white;
+}
+
+.dogo1{
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.sig3{
+    font-size: 23px; 
+    visibility: hidden;
+    animation-name: animate6;
+    animation-duration: 0.2s;
+    animation-delay: 7.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out; 
+}
+
+@keyframes animate6{
+    from{
+        margin-top: -5%;
+        opacity:25%;
+    }
+    to{
+        margin-top: 3%;
+        visibility: visible;
+    }
+}
+
+a{
+    text-decoration:none;
+}
+
+#splash{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    transition: opacity 1s;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 300px;
+}
+
+#splash.fade{
+
+    opacity: 0;
+
+}
+}

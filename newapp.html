@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Page</title>
+         <meta charset="UTF-8">
+            <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+        <meta name="description" content="Signup Page|| Laundry Walaa, this is the main signup up page of Laundry Walaa, Signup here to continue and place order for your clothes to get cleaned up.">
+        <meta name="viewport" content="width=device-width , initial-scale=1, user-scalable = 0 ">
+
+        <style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html,body{
+    background-color:rgb(10, 2, 48);
+            overflow-x: hidden;
+            scrollbar-width: none;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+        }
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+#splash{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    transition: opacity 1s;
+    top: 0;
+    left: 0;  
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+.logo1{
+
+    width: 100%;
+    height: 100%;
+    margin-top: -40%;
+
+}
+
+#splash.fade{
+
+    opacity: 0;
+
+}
+
+.next{
+
+background-color: white;
+border-radius: 10px;
+width: 20%;
+height: 5%;
+position: absolute;
+top: 94%;
+right: 5%;
+
+}
+
+.next1{
+    opacity: 0%;
+    animation-name: next;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes next{
+
+from{
+    opacity: 0%;
+}
+
+to{
+    opacity: 100%;
+    
+}
+
+}
+
+
+#slide2{
+    display: none;
+}
+
+#slide3{
+    display: none;
+}
+
+
+
+
+            </style>
+
+    </head>
+
+    <body>
+
+
+<div id="splash">
+  <img src="https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/Schedule%20Pickup.png?alt=media&token=63315ccc-3281-4ecc-8791-68c873cc3737" class="logo"></img>
+  </div>
+
+  
+  <div id="slide1">
+
+    <img src="https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/Schedule%20Pickup%20(1).png?alt=media&token=f336e560-84f1-476b-9b4a-47165a0dc3f4" class="logo1"></img>
+    <button type="menu" class="next next1" id="next1">Next-></button>
+    
+    </div>
+
+     
+  <div id="slide2">
+
+    <img src="https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/Schedule%20Pickup%20(2).png?alt=media&token=f17bf569-85fb-4d1d-9b44-010ea8867955" class="logo1"></img>
+    <button type="menu" class="next" id="next2">Next-></button>
+    
+    </div>
+
+    <div id="slide3">
+
+        <img src="https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/Schedule%20Pickup%20(3).png?alt=media&token=ea35a4a2-1292-41ba-9a30-bd35cc29f835" class="logo1"></img>
+        <button type="menu" class="next" id="next3">Next-></button>
+        
+        </div>
+
+
+  <script>
+
+document.getElementById("next1").addEventListener("click", function(){
+
+    document.getElementById("slide1").style.display="none";
+    document.getElementById("slide2").style.display="block";
+
+})
+
+document.getElementById("next2").addEventListener("click", function(){
+
+document.getElementById("slide2").style.display="none";
+document.getElementById("slide3").style.display="block";
+
+})
+
+document.getElementById("next3").addEventListener("click", function(){
+
+    window.location = "schedule.html";
+
+})
+
+
+setTimeout(()=>{
+      document.getElementById("splash").classList.toggle("fade");
+    },5000);
+
+
+    window.onload = function(){
+
+var flag2 = localStorage.getItem("flag1");
+
+if(flag2 == 1){
+
+window.location = "schedule.html";
+
+}
+
+
+    }
+
+
+
+    </script>
+
+
+  </body>
+  </html>

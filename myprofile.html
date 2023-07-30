@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+           <title> My Profile </title>
+           <meta charset="UTF-8">
+            <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+          <meta name="viewport" content="width=device-width , initial-scale=1 , user-scalable = 0">
+          <meta name="description" content="You profile of Laundry Walaa.Ironing your clothes and dry cleaning it with proper care and at reasonable rates to make you feel and give a posche effect and flavour.These works are done at Laundry Walaa service centre at Kharagpur , which will be expanded soon.">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+
+
+          <style>
+
+@media  screen and (orientation: portrait) {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: rgb(36, 1, 36);
+    overflow-x: hidden;
+  scrollbar-width: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+ 
+  }
+html{
+    overflow-y: overlay;
+  position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
+.header{
+    width:100%;
+height:60px;
+position:fixed;
+z-index:10;
+}
+
+.bgm2{
+  background-color: blue;
+  width: 100%;
+  
+}
+.logo2{
+  text-align: center;
+  font-size: 250%;
+  width: 100%;
+  color:#fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+  
+}
+
+h1{
+        color: rgb(7, 184, 184);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 5%;
+    }
+
+    .infoa{
+        color: rgb(6, 182, 182);
+        margin-top: 2%;
+    }
+    .cancel{
+        float:right;
+        margin-right:8%;
+        text-decoration: none;
+        color: red;
+    }
+    
+    .otp{
+        border: none;
+        border-radius: 8px;
+        border-bottom: 2px solid gray;
+        box-shadow: 1px 1px 2px 1px lightgray;
+        width: 15%;
+        height:5%;
+        margin-left: 2%;
+        background-color: rgb(36,1,36);
+    }
+    .otp:focus{
+        outline: none;
+    border-radius: 8px;
+    border-color: rgb(2, 155, 155);
+    box-shadow: 2px 2px 3px 2px rgb(60, 200, 247);
+    box-shadow: inset;
+
+    }
+    .otp2{
+        display: inline;
+    }
+    .coup{
+        border: none;
+        border-bottom: 2px solid gray;
+        margin-left: 2%;
+        background-color: rgb(36,1,36);
+    }
+    .coup:focus{
+        outline: none;
+        background-color: rgb(204, 139, 248);
+    }
+    label{
+        display: block;
+    }
+    .ord{
+        margin-top: 3%;
+    }
+    .note{
+        margin-top:6%;
+    }
+    .note2{
+        text-align: justify;
+        font-style: italic;
+        color: white;
+    }
+    .od{
+        color: rgb(6, 182, 182);
+       
+    }
+
+    .niku{
+        margin-top: 3%;
+    }
+
+.prof{
+    color: #fff;
+  margin-top: 2%;
+  font-size: medium;
+}
+.pic{
+    position: absolute;
+    bottom: 0;
+    outline: none;
+    color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    background: rgba(0, 0, 0 , 0.5);
+    opacity: 0;
+}
+
+.pic::-webkit-file-upload-button{
+    visibility: hidden;
+}
+
+.pic::before{
+    content:'\f030';
+    font-family: fontAwesome;
+    font-size: 20px;
+    color: #fff;
+  display: inline-block;
+  -webkit-user-select: none;
+}
+
+.pic::after{
+    content:'Update';
+    font-family: 'arial';
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    top:30px;
+    font-size: 14px;
+    position: absolute;
+}
+
+.pic:hover{
+    opacity: 1;
+}
+
+.f1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -4%;
+    left: 40%;
+    border-radius: 50%;
+    border: 5px solid white;
+    background: url('https://www.freeiconspng.com/uploads/profile-icon-9.png');
+    background-size: 100% 100%;
+    margin: 100px auto;
+    
+}
+
+.boom{
+    position: absolute;
+    top: 30%;
+}
+
+span{
+    color: #fff;
+    font-size: medium;
+}
+
+#od5, #datoon{
+    color: #fff;
+}
+
+.cart1{
+color: rgb(36, 160, 209);
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+margin-top: 105%;
+}
+
+.sis{
+position: absolute;
+top:-25%;
+right:-95%;
+color:rgb(25, 137, 182);
+font-style: bold;
+font-size: large;
+
+
+}
+
+
+}
+
+            </style>
+      
+        </head>
+        <body>
+    <div class="firstlogo">
+      <div class="bgm2" id=""><p class="logo2">Laundry Walaa</p></div>
+  <div class="f1">
+    <input type="file" class="pic" />
+  </div>
+<div class="boom">
+  <div class="rang">
+    <p class="prof">Name:<span id="result1"></span></p>
+    <p class="prof">Email:<span id="result2"></span></p>
+    <p class="prof">Username:<span id="result3"></span></p>
+  </div>
+
+<div class="sis" id="edit">Edit</div>
+
+
+  <h1>Order History</h1>
+  <div class="niku"><span class="od">Order-Id:<span id="od5"></span></span>
+  <a href="cancelorder.html" class="cancel">Cancel</a></div>
+  
+  
+  
+  
+  <div>
+     
+      <p class="infoa">Pickup Date : <span id="datoon"></span></p>
+      <p class="infoa">Runner Assigned :</p>
+      <label><p class="infoa otp2">Coupon :</p></label>
+  </div>
+
+
+  
+  
+
+  </div>
+
+  <div class="cart1">My Orders</div>
+
+  <script>
+
+var order3 = localStorage.getItem("order30");
+document.getElementById("od5").innerHTML= order3;
+
+var date30 = localStorage.getItem("date20");
+document.getElementById("datoon").innerHTML= date30;
+
+
+var signflag3 = localStorage.getItem("signflag2");
+
+
+
+
+var signname3 = localStorage.getItem("signname2");
+var signemail3 = localStorage.getItem("signemail2");
+var signusername3 = localStorage.getItem("signusername2");
+
+document.getElementById("result1").innerHTML= signname3;
+document.getElementById("result2").innerHTML= signemail3;
+document.getElementById("result3").innerHTML= signusername3;
+
+
+var flagirona = sessionStorage.getItem("flagirona");
+var flagironb = sessionStorage.getItem("flagironb");
+var flagironc = sessionStorage.getItem("flagironc");
+var flagirond = sessionStorage.getItem("flagirond");
+var flagirone = sessionStorage.getItem("flagirone");
+
+
+var flagwasha = sessionStorage.getItem("flagwasha");
+var flagwashb = sessionStorage.getItem("flagwashb");
+var flagwashc = sessionStorage.getItem("flagwashc");
+var flagwashd = sessionStorage.getItem("flagwashd");
+var flagwashe = sessionStorage.getItem("flagwashe");
+
+
+var iron_shirt_steam =  localStorage.getItem("sc1");
+var t_shirt_iron_steam = localStorage.getItem("tsc1");
+var trouser_iron_steam = localStorage.getItem("tc1");
+var jeans_iron_steam = localStorage.getItem("jc1");
+var school_iron_steam = localStorage.getItem("schc1");
+var dress_designer_steam_iron = localStorage.getItem("ddc1");
+var kids_steam_iron = localStorage.getItem("kc1");
+var total_rate_iron2 = localStorage.getItem("totc1");
+
+
+
+if(flagirona == 1){
+
+const p = document.createElement("p");
+const p2 = document.createElement("p");
+const p3 = document.createElement("p");
+const p4 = document.createElement("p");
+const p5 = document.createElement("p");
+const p6 = document.createElement("p");
+const p7 = document.createElement("p");
+const p8 = document.createElement("p");
+const p9 = document.createElement("p");
+
+p9.innerText = "Steam Press Iron";
+p.innerText = "1)Shirt-"+iron_shirt_steam;
+p2.innerText = "2)T-Shirt-"+t_shirt_iron_steam;
+p3.innerText = "3)Trouser-"+trouser_iron_steam;
+p4.innerText = "4)Jeans-"+jeans_iron_steam;
+p5.innerText = "5)School Dress-"+school_iron_steam;
+p6.innerText = "6)Dress(Designer)-"+dress_designer_steam_iron;
+p7.innerText = "7)Kids Dress-"+kids_steam_iron;
+p8.innerText = "  Total-"+total_rate_iron2;
+
+p.style.cssText = "color:white; font-size:medium; display:inline-block; "
+p2.style.cssText = "color:white; font-size:medium;  "
+p3.style.cssText = "color:white; font-size:medium;"
+p4.style.cssText = "color:white; font-size:medium;"
+p5.style.cssText = "color:white; font-size:medium;"
+p6.style.cssText = "color:white; font-size:medium;"
+p7.style.cssText = "color:white; font-size:medium;"
+p8.style.cssText = "color:white; font-size:medium;border-bottom:2px solid pink;"
+p9.style.cssText = "color:orange; font-size:large;margin-top:5%;"
+
+document.body.append(p9);
+document.body.append(p);
+document.body.append(p2);
+document.body.append(p3);
+document.body.append(p4);
+document.body.append(p5);
+document.body.append(p6);
+document.body.append(p7);
+document.body.append(p8);
+
+}
+
+
+
+
+var iron_shirt_dry =  localStorage.getItem("drysc1");
+var t_shirt_iron_dry = localStorage.getItem("drytsc1");
+var trouser_iron_dry = localStorage.getItem("drytc1");
+var jeans_iron_dry = localStorage.getItem("dryjc1");
+var school_iron_dry = localStorage.getItem("dryschc1");
+var dress_designer_dry_iron = localStorage.getItem("dryddc1");
+var kids_dry_iron = localStorage.getItem("drykc1");
+var suit_dry_iron = localStorage.getItem("drysuitc1");
+var drytotal_rate_iron2 = localStorage.getItem("drytotc1");
+
+
+
+if(flagironb == 1){
+
+const dryp = document.createElement("p");
+const dryp2 = document.createElement("p");
+const dryp3 = document.createElement("p");
+const dryp4 = document.createElement("p");
+const dryp5 = document.createElement("p");
+const dryp6 = document.createElement("p");
+const dryp7 = document.createElement("p");
+const dryp8 = document.createElement("p");
+const dryp9 = document.createElement("p");
+const dryp10 = document.createElement("p");
+
+dryp9.innerText = "Dry Clean Iron";
+dryp.innerText = "1)Shirt-"+iron_shirt_dry;
+dryp2.innerText = "2)T-Shirt-"+t_shirt_iron_dry;
+dryp3.innerText = "3)Trouser-"+trouser_iron_dry;
+dryp4.innerText = "4)Jeans-"+jeans_iron_dry;
+dryp5.innerText = "5)School Dress-"+school_iron_dry;
+dryp6.innerText = "6)Dress(Designer)-"+dress_designer_dry_iron;
+dryp7.innerText = "7)Kids Dress-"+kids_dry_iron;
+dryp10.innerText = "8)Suit-"+suit_dry_iron;
+dryp8.innerText = "  Total-"+drytotal_rate_iron2;
+
+dryp.style.cssText = "color:white; font-size:medium;"
+dryp2.style.cssText = "color:white; font-size:medium;"
+dryp3.style.cssText = "color:white; font-size:medium;"
+dryp4.style.cssText = "color:white; font-size:medium;"
+dryp5.style.cssText = "color:white; font-size:medium;"
+dryp6.style.cssText = "color:white; font-size:medium;"
+dryp7.style.cssText = "color:white; font-size:medium;"
+dryp8.style.cssText = "color:white; font-size:medium;border-bottom:2px solid pink;"
+dryp9.style.cssText = "color:orange; font-size:large;margin-top:5%;"
+dryp10.style.cssText = "color:white; font-size:medium;"
+
+document.body.append(dryp9);
+document.body.append(dryp);
+document.body.append(dryp2);
+document.body.append(dryp3);
+document.body.append(dryp4);
+document.body.append(dryp5);
+document.body.append(dryp6);
+document.body.append(dryp7);
+document.body.append(dryp10);
+document.body.append(dryp8);
+
+
+}
+
+
+
+
+
+var paijama2 = localStorage.getItem("paijama4");
+var plazo2 = localStorage.getItem("plazo4");
+var heavy2 = localStorage.getItem("heavy4");
+var kurti2 = localStorage.getItem("kurti4");
+var saree2 = localStorage.getItem("saree4");
+var mh2 = localStorage.getItem("mh4");
+var choli2 = localStorage.getItem("choli4");
+var top2 = localStorage.getItem("top4");
+var skirt2 = localStorage.getItem("skirt4");
+var full2 = localStorage.getItem("full4");
+var ladytotal_rate_iron2 = localStorage.getItem("ladytotal_rate_iron4");
+
+
+if(flagironc == 1){
+
+const ladyp = document.createElement("p");
+const ladyp2 = document.createElement("p");
+const ladyp3 = document.createElement("p");
+const ladyp4 = document.createElement("p");
+const ladyp5 = document.createElement("p");
+const ladyp6 = document.createElement("p");
+const ladyp7 = document.createElement("p");
+const ladyp8 = document.createElement("p");
+const ladyp9 = document.createElement("p");
+const ladyp10 = document.createElement("p");
+const ladyp11 = document.createElement("p");
+const ladyp12 = document.createElement("p");
+
+ladyp9.innerText = "Ladies Wear Iron";
+ladyp.innerText = "1)Payjama/Salwar-"+paijama2;
+ladyp2.innerText = "2)Plazo Plain-"+plazo2;
+ladyp3.innerText = "3)Plazo Heavy-"+heavy2;
+ladyp4.innerText = "4)Kurti/Kameez-"+kurti2;
+ladyp5.innerText = "5)Saree-"+saree2;
+ladyp12.innerText = "5)Saree M/H-"+mh2;
+ladyp6.innerText = "6)Choli-"+choli2;
+ladyp7.innerText = "7)Ladies Top-"+top2;
+ladyp10.innerText = "8)Skirt(Half)-"+skirt2;
+ladyp11.innerText = "9)Skirt(Full)-"+full2;
+ladyp8.innerText = "  Total-"+drytotal_rate_iron2;
+
+ladyp.style.cssText = "color:white; font-size:medium;"
+ladyp2.style.cssText = "color:white; font-size:medium;"
+ladyp3.style.cssText = "color:white; font-size:medium;"
+ladyp4.style.cssText = "color:white; font-size:medium;"
+ladyp5.style.cssText = "color:white; font-size:medium;"
+ladyp6.style.cssText = "color:white; font-size:medium;"
+ladyp7.style.cssText = "color:white; font-size:medium;"
+ladyp8.style.cssText = "color:white; font-size:medium;border-bottom:2px solid pink;"
+ladyp9.style.cssText = "color:orange; font-size:large;margin-top:5%;"
+ladyp10.style.cssText = "color:white; font-size:medium;"
+ladyp11.style.cssText = "color:white; font-size:medium;"
+ladyp12.style.cssText = "color:white; font-size:medium;"
+
+document.body.append(ladyp9);
+document.body.append(ladyp);
+document.body.append(ladyp2);
+document.body.append(ladyp3);
+document.body.append(ladyp4);
+document.body.append(ladyp5);
+document.body.append(ladyp12);
+document.body.append(ladyp6);
+document.body.append(ladyp7);
+document.body.append(ladyp10);
+document.body.append(ladyp11);
+document.body.append(ladyp8);
+
+}
+
+
+
+var sweat2 = localStorage.getItem("sweat11" );
+var sweater_half2 = localStorage.getItem("sweater_half11");
+var waist2 = localStorage.getItem("waist11");
+var coat2 = localStorage.getItem("coat11");
+var over_coat2 = localStorage.getItem("over_coat11");
+var jacket_half2 = localStorage.getItem("jacket_half11");
+var jacket_full2 = localStorage.getItem("jacket_full11");
+var shawl2 = localStorage.getItem("shawl11");
+var shawl_fancy2 = localStorage.getItem("shawl_fancy11");
+var sweater_full2 = localStorage.getItem("sweater_full11");
+var woolentotal_rate_iron2 = localStorage.getItem("woolentotal_rate_iron11");
+
+
+if(flagirond == 1){
+
+const woolp = document.createElement("p");
+const woolp2 = document.createElement("p");
+const woolp3 = document.createElement("p");
+const woolp4 = document.createElement("p");
+const woolp5 = document.createElement("p");
+const woolp6 = document.createElement("p");
+const woolp7 = document.createElement("p");
+const woolp8 = document.createElement("p");
+const woolp9 = document.createElement("p");
+const woolp10 = document.createElement("p");
+const woolp11 = document.createElement("p");
+const woolp12 = document.createElement("p");
+
+woolp9.innerText = "Woollen Wear Iron";
+woolp.innerText = "1)Sweat Shirt-"+sweat2;
+woolp2.innerText = "2)Sweater Half-"+sweater_half2;
+woolp3.innerText = "3)Waist Coat-"+waist2;
+woolp4.innerText = "4)Coat-"+coat2;
+woolp5.innerText = "5)Over Coat-"+over_coat2;
+woolp12.innerText = "5)Jacket(Half)-"+jacket_half2;
+woolp6.innerText = "6)Jacket(Full)-"+ jacket_full2;
+woolp7.innerText = "7)Shawl-"+shawl2;
+woolp10.innerText = "8)Shawl Fancy-"+shawl_fancy2;
+woolp11.innerText = "9)Sweater(Full)-"+sweater_full2;
+woolp8.innerText = "  Total-"+woolentotal_rate_iron2;
+
+woolp.style.cssText = "color:white; font-size:medium;"
+woolp2.style.cssText = "color:white; font-size:medium;"
+woolp3.style.cssText = "color:white; font-size:medium;"
+woolp4.style.cssText = "color:white; font-size:medium;"
+woolp5.style.cssText = "color:white; font-size:medium;"
+woolp6.style.cssText = "color:white; font-size:medium;"
+woolp7.style.cssText = "color:white; font-size:medium;"
+woolp8.style.cssText = "color:white; font-size:medium;border-bottom:2px solid pink;"
+woolp9.style.cssText = "color:orange; font-size:large;margin-top:5%;"
+woolp10.style.cssText = "color:white; font-size:medium;"
+woolp11.style.cssText = "color:white; font-size:medium;"
+woolp12.style.cssText = "color:white; font-size:medium;"
+
+document.body.append(woolp9);
+document.body.append(woolp);
+document.body.append(woolp2);
+document.body.append(woolp3);
+document.body.append(woolp4);
+document.body.append(woolp5);
+document.body.append(woolp12);
+document.body.append(woolp6);
+document.body.append(woolp7);
+document.body.append(woolp10);
+document.body.append(woolp11);
+document.body.append(woolp8);
+
+}
+
+
+var beds2 = localStorage.getItem("beds10");
+ var bedd2 = localStorage.getItem("bedd10");
+ var bedcover2 = localStorage.getItem("bedcover10");
+ var pillowcover2 = localStorage.getItem("pillowcover10");
+ var cushioncover2 = localStorage.getItem("cushioncover10");
+ var curtainw2 = localStorage.getItem("curtainw10");
+ var curtaind2 = localStorage.getItem("curtaind10");
+ var housetotal_rate_iron2 = localStorage.getItem("housetotal_rate_iron10");
+
+
+ if(flagirone == 1){
+
+ const hsp = document.createElement("p");
+const hsp2 = document.createElement("p");
+const hsp3 = document.createElement("p");
+const hsp4 = document.createElement("p");
+const hsp5 = document.createElement("p");
+const hsp6 = document.createElement("p");
+const hsp9 = document.createElement("p");
+const hsp10 = document.createElement("p");
+const hsp11 = document.createElement("p");
+
+
+hsp9.innerText = "Household Iron";
+hsp.innerText = "1)Bed Sheet(S)-"+beds2;
+hsp2.innerText = "2)Bed Sheet(D)"+bedd2;
+hsp3.innerText = "3)Bed Cover-"+bedcover2;
+hsp4.innerText = "4)Pillow Cover-"+pillowcover2;
+hsp5.innerText = "5)Cushion Cover-"+cushioncover2;
+hsp10.innerText = "6)Curtain Window-"+curtainw2;
+hsp11.innerText = "7)Curtain Door-"+curtaind2;
+hsp6.innerText = " Total-"+housetotal_rate_iron2;
+
+hsp.style.cssText = "color:white; font-size:medium;"
+hsp2.style.cssText = "color:white; font-size:medium;"
+hsp3.style.cssText = "color:white; font-size:medium;"
+hsp4.style.cssText = "color:white; font-size:medium;"
+hsp5.style.cssText = "color:white; font-size:medium;"
+hsp6.style.cssText = "color:white; font-size:medium;"
+hsp9.style.cssText = "color:orange; font-size:large;margin-top:5%;"
+hsp10.style.cssText = "color:white; font-size:medium;"
+hsp11.style.cssText = "color:white; font-size:medium;"
+
+document.body.append(hsp9);
+document.body.append(hsp);
+document.body.append(hsp2);
+document.body.append(hsp3);
+document.body.append(hsp4);
+document.body.append(hsp5);
+document.body.append(hsp6);
+document.body.append(hsp10);
+document.body.append(hsp11);
+
+
+}
+
+
+document.getElementById("edit").addEventListener("click", function(){
+
+    window.location = "addressopt.html";
+
+})
+
+
+
+    </script>
+
+
+</body>
+    </html>
