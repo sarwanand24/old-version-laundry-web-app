@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit</title>
+         <meta charset="UTF-8">
+        <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+        <meta name="description" content="Steam Press || Dry Cleaning || Fast Delivery || Ladies Wear || Woollen || Household ||Wash + Iron Page || Laundry Walaa|| Cleaning || Washing || Low cost cleaning services|| Laundry Services at Kharagpur.Ironing your clothes and dry cleaning it with proper care and at reasonable rates to make you feel and give a posche effect and flavour.These works are done at Laundry Walaa service centre at Kharagpur , which will be expanded soon.">
+      <meta name="viewport" content="width=device-width , initial-scale=1 , user-scalable = 0">
+    <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <div class="laundry4">
+          <div class="bgm" id=""><p class="logo1">Laundry Walaa</p></div>
+             <input type="checkbox" class="check2" id="openSidebarMenu2">
+            <label for="openSidebarMenu2" class="sidebaricontoggle2">
+              <div class="spinner2 top2"></div>
+              <div class="spinner2 middle2"></div>
+              <div class="spinner2 bottom2"></div>
+            </label>
+            <div id="laundry4">
+                <ul class="menu2"> 
+                 
+                  <li><a href="ratecard.html">Rate Card<img src="https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/pngwing.com%20(2)%20(1).png?alt=media&token=b606dcb8-5cc1-465e-8a11-b63277abcc5d" class="png1" /></a></li>
+                   <li><a href="help.html">Help<img src="https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/pngegg%20(1).png?alt=media&token=3c9228cc-dd7d-4195-a54a-09d79e072d06" class="png1" /></a></li>
+                   <li><a href="rateus.html">Rates<img src="https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/5bbce05f7400d-fd3328508f59619e2aa2eb3ba06374e2.png?alt=media&token=ca40addb-0a67-4845-960e-c647288c183d" class="png1" /></a></li>
+                   <li><a href="about.html">About<img src="https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/pngwing.com%20(3)%20(2).png?alt=media&token=afc4f65d-9889-4967-b6d8-b992fe277204" class="png1" /></a></li>
+               </ul>
+        </div>
+              
+              </div>
+              
+        <div class="laundry5">
+          <form action="schedule-pickup.html" >
+        <div><input class="options-in-steam1" type="text" placeholder="Full Name" id="fullname" required/></div>
+        <div><input class="options-in-steam1" type="tel" placeholder="Mobile number" id="mob" required/></div>
+        <div><input class="options-in-steam1" type="text" placeholder="Address" id="address"  required /></div>
+        <div><input class="options-in-steam1" type="text" placeholder="House no./ Flat No. / Block No." id="house_no"  /></div>
+        <div><input class="options-in-steam1" type="number" placeholder="Pin Code" id="pin" ></div>
+        <div><button class="options-in-steam2" type="button" id="send">Save</button></div>
+      </form>
+      </div>
+       
+      <script>
+
+document.getElementById("send").addEventListener("click", function(){
+
+var dname, dmobile, dadd, dhouse, dpin1, dautoname, dautomob, dautoadd, dautohouse, dautopin1;
+
+dautoname =  dname = document.getElementById("fullname").value;
+dautomob = dmobile = document.getElementById("mob").value;
+dautoadd = dadd = document.getElementById("address").value;
+dautohouse =  dhouse = document.getElementById("house_no").value;
+dautopin1 = dpin1 = document.getElementById("pin").value;
+
+
+
+})
+
+
+window.onload = function(){
+
+var dautoname3 = localStorage.getItem("dautoname2");
+var dautomob3 = localStorage.getItem("dautomob2");
+var dautoadd3 = localStorage.getItem("dautoadd2");
+var dautohouse3 = localStorage.getItem("dautohouse2");
+var dautopin3 = localStorage.getItem("dautopin2");
+
+document.getElementById("fullname").value = dautoname3;
+document.getElementById("mob").value = dautomob3;
+document.getElementById("address").value = dautoadd3;
+document.getElementById("house_no").value = dautohouse3;
+document.getElementById("pin").value = dautopin3;
+
+
+}
+
+
+
+        </script>
+
+
+    </body>
+</html>
