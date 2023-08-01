@@ -1,0 +1,1252 @@
+body{
+    overflow-x: hidden;
+  scrollbar-width: none;
+ 
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  -webkit-user-select: none;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/laundry-walaa.appspot.com/o/png_20221106_124605_0000.png?alt=media&token=d0c6f83f-749c-47b7-9c8f-883ca5e77a92");
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+  }
+
+
+  #searchbar{
+     margin-left: 15%;
+     padding:15px;
+     border-radius: 10px;
+   }
+ 
+   input[type=text] {
+      width: 30%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+ 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 70%;
+   }
+
+
+  h1{
+
+color: aqua;
+text-align: center;
+
+  }
+
+  h2{
+position: absolute;
+top: 10%;
+right: 6%;
+display: none;
+  }
+
+  .i1{
+    width: 23px;
+    height: 23px;
+}
+
+
+.d1{
+    
+    position: absolute;
+    top: 18%;
+    left: 75%;
+}
+
+.d2{
+    position: absolute;
+    top: 18%;
+    left: 90%;
+    
+}
+
+
+.p1{
+    
+    position: absolute;
+    top: 18%;
+    left: 85%;
+
+}
+
+.st{
+    position: absolute;
+    font-size: medium;
+    top: 18%;
+    left: 5%;
+}
+
+.d3{
+    position: absolute;
+    top: 26%;
+    left: 75%;
+}
+
+.d4{
+    position: absolute;
+    top: 26%;
+    left: 90%;
+}
+
+.p2{
+    
+    position: absolute;
+    top: 26%;
+    left: 85%;
+
+}
+
+.st2{
+    position: absolute;
+    font-size: medium;
+    top: 26%;
+    left: 5%;
+    
+}
+
+ 
+
+.d5{
+    position: absolute;
+    top: 34%;
+    left: 75%;
+}
+
+.d6{
+    position: absolute;
+    top: 34%;
+    left: 90%;
+}
+
+.p3{
+    
+    position: absolute;
+    top: 34%;
+    left: 85%;
+
+}
+
+.st3{
+    position: absolute;
+    font-size: medium;
+    top: 34%;
+    left: 5%;
+}
+
+.d7{
+    position: absolute;
+    top: 42%;
+    left: 75%;
+}
+
+.d8{
+    position: absolute;
+    top: 42%;
+    left: 90%;
+}
+
+.p4{
+    
+    position: absolute;
+    top: 42%;
+    left: 85%;
+
+}
+
+.st4{
+    position: absolute;
+    font-size: medium;
+    top: 42%;
+    left: 5%;
+}
+
+.d9{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+
+.d10{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+
+.p5{
+    
+    position: absolute;
+    top: 50%;
+    left: 85%;
+
+}
+
+.st5{
+    position: absolute;
+    font-size: medium;
+    top: 50%;
+    left: 5%;
+}
+
+
+.d11{
+    position: absolute;
+    top: 58%;
+    left: 75%;
+}
+
+.d12{
+    position: absolute;
+    top: 58%;
+    left: 90%;
+}
+
+.p6{
+    
+    position: absolute;
+    top: 58%;
+    left: 85%;
+
+}
+
+.st6{
+    position: absolute;
+    font-size: medium;
+    top: 58%;
+    left: 5%;
+}
+
+
+.d13{
+    position: absolute;
+    top: 66%;
+    left: 75%;
+}
+
+.d14{
+    position: absolute;
+    top: 66%;
+    left: 90%;
+}
+
+.p7{
+    
+    position: absolute;
+    top: 66%;
+    left: 85%;
+
+}
+
+.st7{
+    position: absolute;
+    font-size: medium;
+    top: 66%;
+    left: 5%;
+}
+
+
+.d15{
+    position: absolute;
+    top: 74%;
+    left: 75%;
+}
+
+.d16{
+    position: absolute;
+    top: 74%;
+    left: 90%;
+}
+
+.p8{
+    
+    position: absolute;
+    top: 74%;
+    left: 85%;
+
+}
+
+.st8{
+    position: absolute;
+    font-size: medium;
+    top: 74%;
+    left: 5%;
+}
+
+.d17{
+    position: absolute;
+    top: 82%;
+    left: 75%;
+}
+
+.d18{
+    position: absolute;
+    top: 82%;
+    left: 90%;
+}
+
+.p9{
+    
+    position: absolute;
+    top: 82%;
+    left: 85%;
+
+}
+
+.st9{
+    position: absolute;
+    font-size: medium;
+    top: 82%;
+    left: 5%;
+}
+
+.d19{
+    position: absolute;
+    top: 90%;
+    left: 75%;
+}
+
+.d20{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+}
+
+.p10{
+    
+    position: absolute;
+    top: 90%;
+    left: 85%;
+
+}
+
+.st10{
+    position: absolute;
+    font-size: medium;
+    top: 90%;
+    left: 5%;
+}
+
+.d21{
+    position: absolute;
+    top: 98%;
+    left: 75%;
+}
+
+.d22{
+    position: absolute;
+    top: 98%;
+    left: 90%;
+}
+
+.p11{
+    
+    position: absolute;
+    top: 98%;
+    left: 85%;
+
+}
+
+.st11{
+    position: absolute;
+    font-size: medium;
+    top: 98%;
+    left: 5%;
+}
+
+.d23{
+    position: absolute;
+    top: 106%;
+    left: 75%;
+}
+
+.d24{
+    position: absolute;
+    top: 106%;
+    left: 90%;
+}
+
+.p12{
+    
+    position: absolute;
+    top: 106%;
+    left: 85%;
+
+}
+
+.st12{
+    position: absolute;
+    font-size: medium;
+    top: 106%;
+    left: 5%;
+}
+
+.d25{
+    position: absolute;
+    top: 114%;
+    left: 75%;
+}
+
+.d26{
+    position: absolute;
+    top: 114%;
+    left: 90%;
+}
+
+.p13{
+    
+    position: absolute;
+    top: 114%;
+    left: 85%;
+
+}
+
+.st13{
+    position: absolute;
+    font-size: medium;
+    top: 114%;
+    left: 5%;
+}
+
+.d27{
+    position: absolute;
+    top: 122%;
+    left: 75%;
+}
+
+.d28{
+    position: absolute;
+    top: 122%;
+    left: 90%;
+}
+
+.p14{
+    
+    position: absolute;
+    top: 122%;
+    left: 85%;
+
+}
+
+.st14{
+    position: absolute;
+    font-size: medium;
+    top: 122%;
+    left: 5%;
+}
+
+.d29{
+    position: absolute;
+    top: 130%;
+    left: 75%;
+}
+
+.d30{
+    position: absolute;
+    top: 130%;
+    left: 90%;
+}
+
+.p15{
+    
+    position: absolute;
+    top: 130%;
+    left: 85%;
+
+}
+
+.st15{
+    position: absolute;
+    font-size: medium;
+    top: 130%;
+    left: 5%;
+}
+
+
+.d31{
+    position: absolute;
+    top: 138%;
+    left: 75%;
+}
+
+.d32{
+    position: absolute;
+    top: 138%;
+    left: 90%;
+}
+
+.p16{
+    
+    position: absolute;
+    top: 138%;
+    left: 85%;
+
+}
+
+.st16{
+    position: absolute;
+    font-size: medium;
+    top: 138%;
+    left: 5%;
+}
+
+.d33{
+    position: absolute;
+    top: 146%;
+    left: 75%;
+}
+
+.d34{
+    position: absolute;
+    top: 146%;
+    left: 90%;
+}
+
+.p17{
+    
+    position: absolute;
+    top: 146%;
+    left: 85%;
+
+}
+
+.st17{
+    position: absolute;
+    font-size: medium;
+    top: 146%;
+    left: 5%;
+}
+
+.d35{
+    position: absolute;
+    top: 154%;
+    left: 75%;
+}
+
+.d36{
+    position: absolute;
+    top: 154%;
+    left: 90%;
+}
+
+.p18{
+    
+    position: absolute;
+    top: 154%;
+    left: 85%;
+
+}
+
+.st18{
+    position: absolute;
+    font-size: medium;
+    top: 154%;
+    left: 5%;
+}
+
+
+.d37{
+    position: absolute;
+    top: 162%;
+    left: 75%;
+}
+
+.d38{
+    position: absolute;
+    top: 162%;
+    left: 90%;
+}
+
+.p19{
+    
+    position: absolute;
+    top: 162%;
+    left: 85%;
+
+}
+
+.st19{
+    position: absolute;
+    font-size: medium;
+    top: 162%;
+    left: 5%;
+}
+
+.d39{
+    position: absolute;
+    top: 170%;
+    left: 75%;
+}
+
+.d40{
+    position: absolute;
+    top: 170%;
+    left: 90%;
+}
+
+.p20{
+    
+    position: absolute;
+    top: 170%;
+    left: 85%;
+
+}
+
+.st20{
+    position: absolute;
+    font-size: medium;
+    top: 170%;
+    left: 5%;
+}
+
+.d41{
+    position: absolute;
+    top: 178%;
+    left: 75%;
+}
+
+.d42{
+    position: absolute;
+    top: 178%;
+    left: 90%;
+}
+
+.p21{
+    
+    position: absolute;
+    top: 178%;
+    left: 85%;
+
+}
+
+.st21{
+    position: absolute;
+    font-size: medium;
+    top: 178%;
+    left: 5%;
+}
+
+.d43{
+    position: absolute;
+    top: 186%;
+    left: 75%;
+}
+
+.d44{
+    position: absolute;
+    top: 186%;
+    left: 90%;
+}
+
+.p22{
+    
+    position: absolute;
+    top: 186%;
+    left: 85%;
+
+}
+
+.st22{
+    position: absolute;
+    font-size: medium;
+    top: 186%;
+    left: 5%;
+}
+
+.d45{
+    position: absolute;
+    top: 194%;
+    left: 75%;
+}
+
+.d46{
+    position: absolute;
+    top: 194%;
+    left: 90%;
+}
+
+.p23{
+    
+    position: absolute;
+    top: 194%;
+    left: 85%;
+
+}
+
+.st23{
+    position: absolute;
+    font-size: medium;
+    top: 194%;
+    left: 5%;
+}
+
+.d47{
+    position: absolute;
+    top: 202%;
+    left: 75%;
+}
+
+.d48{
+    position: absolute;
+    top: 202%;
+    left: 90%;
+}
+
+.p24{
+    
+    position: absolute;
+    top: 202%;
+    left: 85%;
+
+}
+
+.st24{
+    position: absolute;
+    font-size: medium;
+    top: 202%;
+    left: 5%;
+}
+
+.d49{
+    position: absolute;
+    top: 210%;
+    left: 75%;
+}
+
+.d50{
+    position: absolute;
+    top: 210%;
+    left: 90%;
+}
+
+.p25{
+    
+    position: absolute;
+    top: 210%;
+    left: 85%;
+
+}
+
+.st25{
+    position: absolute;
+    font-size: medium;
+    top: 210%;
+    left: 5%;
+}
+
+
+.d51{
+    position: absolute;
+    top: 218%;
+    left: 75%;
+}
+
+.d52{
+    position: absolute;
+    top: 218%;
+    left: 90%;
+}
+
+.p26{
+    
+    position: absolute;
+    top: 218%;
+    left: 85%;
+
+}
+
+.st26{
+    position: absolute;
+    font-size: medium;
+    top: 218%;
+    left: 5%;
+}
+
+.d53{
+    position: absolute;
+    top: 226%;
+    left: 75%;
+}
+
+.d54{
+    position: absolute;
+    top: 226%;
+    left: 90%;
+}
+
+.p27{
+    
+    position: absolute;
+    top: 226%;
+    left: 85%;
+
+}
+
+.st27{
+    position: absolute;
+    font-size: medium;
+    top: 226%;
+    left: 5%;
+}
+
+.d55{
+    position: absolute;
+    top: 234%;
+    left: 75%;
+}
+
+.d56{
+    position: absolute;
+    top: 234%;
+    left: 90%;
+}
+
+.p28{
+    
+    position: absolute;
+    top: 234%;
+    left: 85%;
+
+}
+
+.st28{
+    position: absolute;
+    font-size: medium;
+    top: 234%;
+    left: 5%;
+}
+
+
+.d57{
+    position: absolute;
+    top: 242%;
+    left: 75%;
+}
+
+.d58{
+    position: absolute;
+    top: 242%;
+    left: 90%;
+}
+
+.p29{
+    
+    position: absolute;
+    top: 242%;
+    left: 85%;
+
+}
+
+.st29{
+    position: absolute;
+    font-size: medium;
+    top: 242%;
+    left: 5%;
+}
+
+.d59{
+    position: absolute;
+    top: 250%;
+    left: 75%;
+}
+
+.d60{
+    position: absolute;
+    top: 250%;
+    left: 90%;
+}
+
+.p30{
+    
+    position: absolute;
+    top: 250%;
+    left: 85%;
+
+}
+
+.st30{
+    position: absolute;
+    font-size: medium;
+    top: 250%;
+    left: 5%;
+}
+
+.d61{
+    position: absolute;
+    top: 258%;
+    left: 75%;
+}
+
+.d62{
+    position: absolute;
+    top: 258%;
+    left: 90%;
+}
+
+.p31{
+    
+    position: absolute;
+    top: 258%;
+    left: 85%;
+
+}
+
+.st31{
+    position: absolute;
+    font-size: medium;
+    top: 258%;
+    left: 5%;
+}
+
+.d63{
+    position: absolute;
+    top: 266%;
+    left: 75%;
+}
+
+.d64{
+    position: absolute;
+    top: 266%;
+    left: 90%;
+}
+
+.p32{
+    
+    position: absolute;
+    top: 266%;
+    left: 85%;
+
+}
+
+.st32{
+    position: absolute;
+    font-size: medium;
+    top: 266%;
+    left: 5%;
+}
+
+.d65{
+    position: absolute;
+    top: 274%;
+    left: 75%;
+}
+
+.d66{
+    position: absolute;
+    top: 274%;
+    left: 90%;
+}
+
+.p33{
+    
+    position: absolute;
+    top: 274%;
+    left: 85%;
+
+}
+
+.st33{
+    position: absolute;
+    font-size: medium;
+    top: 274%;
+    left: 5%;
+}
+
+.d67{
+    position: absolute;
+    top: 282%;
+    left: 75%;
+}
+
+.d68{
+    position: absolute;
+    top: 282%;
+    left: 90%;
+}
+
+.p34{
+    
+    position: absolute;
+    top: 282%;
+    left: 85%;
+
+}
+
+.st34{
+    position: absolute;
+    font-size: medium;
+    top: 282%;
+    left: 5%;
+}
+
+.d69{
+    position: absolute;
+    top: 290%;
+    left: 75%;
+}
+
+.d70{
+    position: absolute;
+    top: 290%;
+    left: 90%;
+}
+
+.p35{
+    
+    position: absolute;
+    top: 290%;
+    left: 85%;
+
+}
+
+.st35{
+    position: absolute;
+    font-size: medium;
+    top: 290%;
+    left: 5%;
+}
+
+.d71{
+    position: absolute;
+    top: 298%;
+    left: 75%;
+}
+
+.d72{
+    position: absolute;
+    top: 298%;
+    left: 90%;
+}
+
+.p36{
+    
+    position: absolute;
+    top: 298%;
+    left: 85%;
+
+}
+
+.st36{
+    position: absolute;
+    font-size: medium;
+    top: 298%;
+    left: 5%;
+}
+
+.d73{
+    position: absolute;
+    top: 306%;
+    left: 75%;
+}
+
+.d74{
+    position: absolute;
+    top: 306%;
+    left: 90%;
+}
+
+.p37{
+    
+    position: absolute;
+    top: 306%;
+    left: 85%;
+
+}
+
+.st37{
+    position: absolute;
+    font-size: medium;
+    top: 306%;
+    left: 5%;
+}
+
+.d75{
+    position: absolute;
+    top: 314%;
+    left: 75%;
+}
+
+.d76{
+    position: absolute;
+    top: 314%;
+    left: 90%;
+}
+
+.p38{
+    
+    position: absolute;
+    top: 314%;
+    left: 85%;
+
+}
+
+.st38{
+    position: absolute;
+    font-size: medium;
+    top: 314%;
+    left: 5%;
+}
+
+.d77{
+    position: absolute;
+    top: 322%;
+    left: 75%;
+}
+
+.d78{
+    position: absolute;
+    top: 322%;
+    left: 90%;
+}
+
+.p39{
+    
+    position: absolute;
+    top: 322%;
+    left: 85%;
+
+}
+
+.st39{
+    position: absolute;
+    font-size: medium;
+    top: 322%;
+    left: 5%;
+}
+
+
+.d79{
+    position: absolute;
+    top: 330%;
+    left: 75%;
+}
+
+.d80{
+    position: absolute;
+    top: 330%;
+    left: 90%;
+}
+
+.p40{
+    
+    position: absolute;
+    top: 330%;
+    left: 85%;
+
+}
+
+.st40{
+    position: absolute;
+    font-size: medium;
+    top: 330%;
+    left: 5%;
+}
+
+.d81{
+    position: absolute;
+    top: 338%;
+    left: 75%;
+}
+
+.d82{
+    position: absolute;
+    top: 338%;
+    left: 90%;
+}
+
+.p41{
+    
+    position: absolute;
+    top: 338%;
+    left: 85%;
+
+}
+
+.st41{
+    position: absolute;
+    font-size: medium;
+    top: 338%;
+    left: 5%;
+}
+
+.d83{
+    position: absolute;
+    top: 346%;
+    left: 75%;
+}
+
+.d84{
+    position: absolute;
+    top: 346%;
+    left: 90%;
+}
+
+.p42{
+    
+    position: absolute;
+    top: 346%;
+    left: 85%;
+
+}
+
+.st42{
+    position: absolute;
+    font-size: medium;
+    top: 346%;
+    left: 5%;
+}
+
+.tot{
+
+font-weight: 500;
+position: absolute;
+top: 350%;
+left: 40%;
+
+}
+
+#quant{
+
+    font-weight: 500;
+position: absolute;
+top: 352%;
+left: 85%;
+
+}
+
+#proceed{
+
+color: white;
+background-color: aqua;
+border-radius: 8px;
+border-color: white;
+border-style: inset;
+width: 60%;
+height: 43px;
+font-size: larger;
+position: absolute;
+top: 355%;
+left: 20%;
+
+}
+
+.stat{
+    position: absolute;
+    top:361% ;
+    left: 5%;
+}
+
+
+.stat1{
+    position: absolute;
+    top:365% ;
+    left: 5%;
+}
+
