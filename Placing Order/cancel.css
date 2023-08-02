@@ -1,0 +1,261 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgb(36, 1, 36);
+    overflow-x: hidden;
+  scrollbar-width: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+ 
+  }
+
+  html{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+   
+  }
+::-webkit-scrollbar{
+    display: none;
+}
+
+  .bgm9{
+  background-color: blue;
+  width: 100%;
+  
+}
+.logo9{
+  text-align: center;
+  font-size: 250%;
+  width: 100%;
+  color:#fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+  
+}
+
+
+#laundry9{
+    height:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    width:250px;
+    margin-top:57px;
+    background:transparent;
+transform:translateX(-250px);
+transition:transform 250ms ease-in-out;
+background-color: rgb(1, 1, 12);
+
+}
+.menu9{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.menu9 li{
+    color:white;
+    border-bottom: 60px solid rgb(1, 1, 12);
+
+}
+.menu9 li a{
+    color:white;
+    display:block;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding: 20px;
+}
+
+
+
+.sidebaricontoggle9{
+    
+    width:5%;
+    height: 30%;
+    position:absolute;
+    z-index:20;
+    top:16px;
+    left:22px;
+    cursor:pointer;
+
+}
+
+.spinner9{
+    height:3px;
+    background:#fff;
+    transition:all 0.3s;
+
+}
+
+.spinner9.middle9, .spinner9.bottom9{
+    margin-top:3px;
+
+}
+
+#openSidebarMenu9:checked  ~ .sidebaricontoggle9 > .spinner9.middle9{
+    opacity:0;
+}
+
+#openSidebarMenu9:checked  ~ .sidebaricontoggle9 > .spinner9.top9{
+transform:rotate(135deg);
+margin-top: 8px;
+}
+
+#openSidebarMenu9:checked  ~ .sidebaricontoggle9 > .spinner9.bottom9{
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+#openSidebarMenu9:checked ~ #laundry9{
+    transform:translateX(0px);
+}
+
+
+
+             .container {
+  display: inline;
+  cursor: pointer;
+}
+
+
+#searchbar{
+  width:65%;
+  height:6%;
+  padding:15px;
+  border-color: rgb(76, 76, 214);
+  border:2px solid black ;
+  margin-left:22%;
+  outline-style: groove;
+outline-color: black;
+outline-width: 2px;
+}
+
+
+.check9{
+  display:none;
+}
+
+.png6{
+  width:20%;
+  height:6%;
+  margin-left: 2%;
+  margin-bottom: -4%;
+}
+
+h1{
+        color: rgb(7, 184, 184);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 3%;
+    }
+
+    .oid{
+        color: #fff;
+        font-size: 20px;
+        font-style: bold;
+        margin-top: 1%;
+        
+    }
+    .rcan{
+        color: #fff;
+        font-size: 20px;
+        font-style: bold;
+    }
+
+.orcan{
+    margin-top: 3%;
+}
+
+.png7{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.png8{
+    text-decoration: none;
+    border-color:rgb(214, 187, 187);
+    background-color: rgb(214, 187, 187);
+    
+    font-size: 25px;
+    font-style: bold;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 100%;
+}
+.png9{
+    
+    position: absolute;
+     
+    left: 20%;
+
+}
+
+.png10{
+    position: absolute;
+    top: 60%;
+    left: 9%;
+}
+.png11{
+    position: absolute;
+    top: 45%;
+    left: 54%;
+    background-color: rgb(218, 201, 201);
+    width: 120px;
+    height: 58px;
+    border-radius: 50px;
+    
+}
+
+.goat3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.co{
+    background-color: rgb(19, 166, 211);
+    color: #fff;
+    width: 60%;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #fff;
+    outline: invert;
+    outline-style: outset;
+}
+
+.goat{
+    margin-left: 20%;
+    margin-top: -5%;
+    padding: 10%;
+}
+
+.goat2{
+    background-color: rgb(7, 184, 184) ;
+    color: #fff;
+    width: 30%;
+    height: 40px;
+    border-color: #fff;
+    border-radius: 10px;
+    display: none;
+    font-size: 15px;
+}
+
+
+.a10{
+    text-decoration: none;
+    width: 50%;
+    height: 40px;
+}
+
+#boobs{
+    color: #fff;
+}
