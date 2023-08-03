@@ -1,0 +1,69 @@
+@media  screen and (orientation: portrait) {
+
+             * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgb(36, 1, 36);
+    overflow-x: hidden;
+  scrollbar-width: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+ 
+  }
+
+  html{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+   
+  }
+::-webkit-scrollbar{
+    display: none;
+}
+
+            .bgm3{
+  background-color: blue;
+  width: 100%;
+  
+}
+.logo3{
+  text-align: center;
+  font-size: 250%;
+  width: 100%;
+  
+  color:#fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+  
+}
+
+
+h1{
+    color: #fff;
+    margin-top: 3%;
+}
+
+.mob{
+    color:#fff;
+    font-size: larger;
+    margin-top: 2%;
+}
+
+.img{
+    width:100%;
+    height:70%;
+}
+
+span{
+    color: #fff;
+}
+
+}
