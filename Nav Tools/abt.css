@@ -1,0 +1,55 @@
+@media  screen and (orientation: portrait) {
+           * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgb(36, 1, 36);
+    overflow-x: hidden;
+  scrollbar-width: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+ 
+  }
+
+  html{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+   
+  }
+::-webkit-scrollbar{
+    display: none;
+}
+
+            .bgm10{
+  background-color: blue;
+  width: 100%;
+  
+}
+.logo10{
+  text-align: center;
+  font-size: 250%;
+  width: 100%;
+  color:#fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.about{
+    color: rgb(15,155,155);
+    text-align: justify;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3%;
+    line-height: 230%;
+}
+
+}
