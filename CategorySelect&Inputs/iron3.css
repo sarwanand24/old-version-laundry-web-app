@@ -1,0 +1,526 @@
+
+@media  screen and (orientation: portrait) {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgb(36, 1, 36);
+    overflow-x: hidden;
+  scrollbar-width: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  -webkit-user-select: none;
+ 
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+}
+
+html{
+    overflow-y: overlay;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+   
+  }
+
+
+ 
+
+.header{
+    width:100%;
+height:60px;
+position:fixed;
+z-index:10;
+}
+
+.bgm2{
+  background-color: blue;
+  width: 100%;
+  
+}
+.logo2{
+  text-align: center;
+  font-size: 250%;
+  width: 100%;
+  color:#fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+}
+
+
+#laundry1{
+    height:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    width:250px;
+    margin-top:57px;
+    background:transparent;
+transform:translateX(-250px);
+transition:transform 250ms ease-in-out;
+background-color: rgb(1, 1, 12);
+
+}
+.menu{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.menu li{
+    color:white;
+    border-bottom: 60px solid rgb(1, 1, 12);
+
+}
+.menu li a{
+    color:white;
+    display:block;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding: 20px;
+}
+
+
+
+.sidebaricontoggle{
+    
+    width:5%;
+    height: 30%;
+    position:absolute;
+    z-index:20;
+    top:26px;
+    left:22px;
+    cursor:pointer;
+
+}
+
+.spinner{
+    height:3px;
+    background:#fff;
+    transition:all 0.3s;
+
+}
+
+.spinner.middle, .spinner.bottom{
+    margin-top:3px;
+
+}
+
+#openSidebarMenu:checked  ~ .sidebaricontoggle > .spinner.middle{
+    opacity:0;
+}
+
+#openSidebarMenu:checked  ~ .sidebaricontoggle > .spinner.top{
+transform:rotate(135deg);
+margin-top: 8px;
+}
+
+#openSidebarMenu:checked  ~ .sidebaricontoggle > .spinner.bottom{
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+#openSidebarMenu:checked ~ #laundry1{
+    transform:translateX(0px);
+}
+
+
+
+             .container {
+  display: inline;
+  cursor: pointer;
+}
+
+
+#searchbar{
+  width:65%;
+  height:6%;
+  padding:15px;
+  border-color: rgb(76, 76, 214);
+  border:2px solid black ;
+  margin-left:22%;
+  outline-style: groove;
+outline-color: black;
+outline-width: 2px;
+}
+
+
+.check{
+  display:none;
+}
+
+.png{
+  width:22%;
+  height:6%;
+  margin-left: 4%;
+  margin-bottom: -4%;
+}
+
+.ul1{
+    display: inline-block;
+    color: #fff;
+    font-size: larger;
+}
+
+
+
+.d1{
+    
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+
+.d2{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    
+}
+
+
+.i1{
+    width: 23px;
+    height: 23px;
+}
+
+.boss1{
+    margin-top: 5%;
+}
+
+.p1{
+    
+    color: #fff;
+    position: absolute;
+    top: 15.5%;
+    left: 68%;
+
+}
+
+.total{
+    
+    color: #fff;
+    position: absolute;
+    top: 95%;
+    left: 68%;
+}
+
+.nik , .nik1{
+    display: inline-block;
+    color: #fff;
+    font-size: larger;
+    
+}
+
+
+.boss2{
+    margin-top: 1%;
+}
+
+.d3{
+    position: absolute;
+    top: 23%;
+    left: 60%;
+}
+
+.d4{
+    position: absolute;
+    top: 23%;
+    left: 75%;
+}
+
+.p2{
+    
+    color: #fff;
+    position: absolute;
+    top: 23.5%;
+    left: 68%;
+
+}
+
+
+.d5{
+    position: absolute;
+    top: 31%;
+    left: 60%;
+}
+
+.d6{
+    position: absolute;
+    top: 31%;
+    left: 75%;
+}
+
+.p3{
+    
+    color: #fff;
+    position: absolute;
+    top: 31.5%;
+    left: 68%;
+
+}
+
+.d7{
+    position: absolute;
+    top: 39%;
+    left: 60%;
+}
+
+.d8{
+    position: absolute;
+    top: 39%;
+    left: 75%;
+}
+
+.p4{
+    
+    color: #fff;
+    position: absolute;
+    top: 39.5%;
+    left: 68%;
+
+}
+
+
+.d9{
+    position: absolute;
+    top: 47%;
+    left: 60%;
+}
+
+.d10{
+    position: absolute;
+    top: 47%;
+    left: 75%;
+}
+
+.p5{
+    
+    color: #fff;
+    position: absolute;
+    top: 47.5%;
+    left: 68%;
+
+}
+
+
+.d11{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+}
+
+.d12{
+    position: absolute;
+    top: 55%;
+    left: 75%;
+}
+
+.p6{
+    
+    color: #fff;
+    position: absolute;
+    top: 55.5%;
+    left: 68%;
+
+}
+
+.d13{
+    position: absolute;
+    top: 63%;
+    left: 60%;
+}
+
+.d14{
+    position: absolute;
+    top: 63%;
+    left: 75%;
+}
+
+.p7{
+    
+    color: #fff;
+    position: absolute;
+    top: 63.5%;
+    left: 68%;
+
+}
+
+
+.d15{
+    position: absolute;
+    top: 71%;
+    left: 60%;
+}
+
+.d16{
+    position: absolute;
+    top: 71%;
+    left: 75%;
+}
+
+.p8{
+    
+    color: #fff;
+    position: absolute;
+    top: 71.5%;
+    left: 68%;
+
+}
+
+.d17{
+    position: absolute;
+    top: 79%;
+    left: 60%;
+}
+
+.d18{
+    position: absolute;
+    top: 79%;
+    left: 75%;
+}
+
+.p9{
+    
+    color: #fff;
+    position: absolute;
+    top: 79.5%;
+    left: 68%;
+
+}
+
+.d19{
+    position: absolute;
+    top: 87%;
+    left: 60%;
+}
+
+.d20{
+    position: absolute;
+    top: 87%;
+    left: 75%;
+}
+
+.p10{
+    
+    color: #fff;
+    position: absolute;
+    top: 87.5%;
+    left: 68%;
+
+}
+
+
+.but{
+    background-color: rgb(15, 170, 170);
+    color: #fff;
+    width: 40%;
+    height: 40px;
+    font-size: larger;
+    
+    border-color: #fff;
+    border-radius: 10px;
+}
+
+.s1{
+    margin-top: -5%;
+}
+
+.warning{
+    color: red;
+    font-size: medium;
+    text-align: center;
+    position: absolute;
+    top: 108%;
+    left: 30%;
+    display: none;
+}
+
+.st{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.st2{
+    position: absolute;
+    top: 23%;
+    left: 5%;
+}
+
+.st3{
+    position: absolute;
+    top: 31%;
+    left: 5%;
+}
+
+.st4{
+    position: absolute;
+    top: 39%;
+    left: 5%;
+}
+
+.st5{
+    position: absolute;
+    top: 47%;
+    left: 5%;
+}
+
+.st6{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+.st7{
+    position: absolute;
+    top: 63%;
+    left: 5%;
+}
+
+.st8{
+    position: absolute;
+    top: 71%;
+    left: 5%;
+}
+
+.st9{
+    position: absolute;
+    top: 79%;
+    left: 5%;
+}
+
+.st10{
+    position: absolute;
+    top: 87%;
+    left: 5%;
+}
+
+.st11{
+    position: absolute;
+    top: 95%;
+    left: 15%;
+}
+
+.rs{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+}
+
+.st12{
+    position: absolute;
+    top: 100%;
+    left: 30%;
+}
+
+}
