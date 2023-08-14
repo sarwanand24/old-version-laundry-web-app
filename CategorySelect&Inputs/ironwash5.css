@@ -1,0 +1,206 @@
+@media  screen and (orientation: portrait) {
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgb(36, 1, 36);
+    overflow-x: hidden;
+  scrollbar-width: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  -webkit-user-select: none;
+ 
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+}
+
+html{
+    overflow-y: overlay;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+   
+  }
+
+.header{
+    width:100%;
+height:60px;
+position:fixed;
+z-index:10;
+}
+
+.bgm2{
+  background-color: blue;
+  width: 100%;
+  
+}
+.logo2{
+   text-align: center;
+  font-size: 250%;
+  width: 100%;
+  color:#fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+  
+}
+
+
+#laundry1{
+    height:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    width:250px;
+    margin-top:57px;
+    background:transparent;
+transform:translateX(-250px);
+transition:transform 250ms ease-in-out;
+background-color: rgb(1, 1, 12);
+
+}
+.menu{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.menu li{
+    color:white;
+    border-bottom: 60px solid rgb(1, 1, 12);
+
+}
+.menu li a{
+    color:white;
+    display:block;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding: 20px;
+}
+
+
+
+.sidebaricontoggle{
+    
+    width:5%;
+    height: 30%;
+    position:absolute;
+    z-index:20;
+    top:26px;
+    left:22px;
+    cursor:pointer;
+
+}
+
+.spinner{
+    height:3px;
+    background:#fff;
+    transition:all 0.3s;
+
+}
+
+.spinner.middle, .spinner.bottom{
+    margin-top:3px;
+
+}
+
+#openSidebarMenu:checked  ~ .sidebaricontoggle > .spinner.middle{
+    opacity:0;
+}
+
+#openSidebarMenu:checked  ~ .sidebaricontoggle > .spinner.top{
+transform:rotate(135deg);
+margin-top: 8px;
+}
+
+#openSidebarMenu:checked  ~ .sidebaricontoggle > .spinner.bottom{
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+#openSidebarMenu:checked ~ #laundry1{
+    transform:translateX(0px);
+}
+
+
+
+             .container {
+  display: inline;
+  cursor: pointer;
+}
+
+
+#searchbar{
+  width:65%;
+  height:6%;
+  padding:15px;
+  border-color: rgb(76, 76, 214);
+  border:2px solid black ;
+  margin-left:22%;
+  outline-style: groove;
+outline-color: black;
+outline-width: 2px;
+}
+
+
+.check{
+  display:none;
+}
+
+.png{
+  width:22%;
+  height:6%;
+  margin-left: 4%;
+  margin-bottom: -4%;
+}
+
+.a1{
+    text-decoration: none;
+}
+
+.or2{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 30%;
+}
+
+.div1{
+    margin-left: 26%;
+    margin-top: 20%;
+}
+
+.bu1{
+    background-color:rgb(12, 165, 165) ;
+    color: #fff;
+    border-color:white;
+   border-radius:10px;
+   width: 72%;
+   height:50px;
+   font-size: larger;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.img1{
+  width:40% ;
+  height:65% ;
+}
+
+.lond{
+  margin-top: 2%;
+}
+
+.mar{
+  margin-top: 4%;
+}
+
+
+}
